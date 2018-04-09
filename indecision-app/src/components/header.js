@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 
+const Header = (props) => {
+    return (
 
-class Header extends Component {
+        <div>
+            <h1>{props.title}</h1>
+            {props.subtitle && <p>{props.subtitle}</p>}
+        </div>
 
-    render() {
-
-        return (
-
-            <div>
-                <h1>{this.props.title}</h1>
-                { this.props.subtitle && <p>{ this.props.subtitle }</p> }
-            </div>
-
-        )}
+    )
 }
+
+
 
 export default Header;

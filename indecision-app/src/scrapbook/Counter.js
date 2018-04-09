@@ -57,6 +57,10 @@ class App2 extends Component {
 
 
         )}
+    Counter.defaultProps = {
+        count: 0
+    }
+
 }
 
 export default App2;
