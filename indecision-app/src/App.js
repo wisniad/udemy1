@@ -4,15 +4,24 @@ import './App.css';
 
 class App extends Component {
   render() {
-    return (
+      var user = {
+          name: 'Damian',
+          location: 'Gdynia'
+      };
+
+      function getLocation(location) {
+          return location ? <p className="App-intro">Location: {location}</p>
+              : undefined;
+      }
+      return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome {user.name} to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          {
+              getLocation(user.location)
+          }
       </div>
     );
   }
