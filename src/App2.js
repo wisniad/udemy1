@@ -4,6 +4,7 @@ import Options from "./components/options";
 import Action from "./components/action";
 import AddOption from "./components/addoption";
 import OptionModal from "./components/optionmodal";
+import 'normalize-css/normalize.css';
 import './styles/styles.css';
 
 class App2 extends Component {
@@ -76,10 +77,10 @@ class App2 extends Component {
     };
 
     modalClose = () => {
-     this.setState( () => ({
-         selectedOption: undefined
-     }))
-};
+        this.setState(() => ({
+            selectedOption: undefined
+        }))
+    };
 
     render() {
 
@@ -91,22 +92,24 @@ class App2 extends Component {
                     title={this.state.title}
                     subtitle={this.state.subtitle}
                 />
-                <Action
-                    hasOptions={this.state.options.length > 0}
-                    handlePick={this.handlePick}
-                />
-                <Options
-                    options={this.state.options}
-                    handleDeleteOptions={this.handleDeleteOptions}
-                    handleDeleteOptionSingular={this.handleDeleteOptionSingular}
-                />
-                <AddOption
-                    handleAddOption={this.handleAddOption}
-                />
-                <OptionModal
-                    selectedOption={this.state.selectedOption}
-                    modalClose={this.modalClose}
-                />
+                <div className="container">
+                    <Action
+                        hasOptions={this.state.options.length > 0}
+                        handlePick={this.handlePick}
+                    />
+                    <Options
+                        options={this.state.options}
+                        handleDeleteOptions={this.handleDeleteOptions}
+                        handleDeleteOptionSingular={this.handleDeleteOptionSingular}
+                    />
+                    <AddOption
+                        handleAddOption={this.handleAddOption}
+                    />
+                    <OptionModal
+                        selectedOption={this.state.selectedOption}
+                        modalClose={this.modalClose}
+                    />
+                </div>
             </div>
 
 
