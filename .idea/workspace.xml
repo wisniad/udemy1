@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cc0b8e2-1563-4aec-95e3-755845aaccf3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.65027555.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.65027555.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.c746fe34.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.c746fe34.js.map" afterDir="false" />
+    <list default="true" id="3cc0b8e2-1563-4aec-95e3-755845aaccf3" name="Default" comment="using modal">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/ansi-html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/atob" afterDir="false" />
@@ -59,9 +53,29 @@
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/webpack" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/which" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/030921d13167e994e066d5eca291abe6ae10c8eb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/057bd9599f162ff0bd80f02360562b5c0597d7ee.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1eced95f4444687e9e98624e964733b0ea9c1967.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/29e8719e0a6968aa567afe284bbf5851d0b527a0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2a24ec8fa769f4e0c81cd2a28003c89516fffc10.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3dfd3478db666215c0d3768d2c6cbe6befc7ab50.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/44336e5c7b0b96477f62cacb83ec07df7315d2f8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/50722ca8ac43f1f7238f8818194def978dbfe34f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5638108dd038eecd912c10660e0678cf7436d295.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5678ae154f0556853cea1c08cbaed3f231ca903e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/708539c8f217ea8fe1b3f56d6bfb433041632b1b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7360e4162503cfedfd8a1112117831ce256dfc28.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7527c592f6c87794411c53097b74742745545f4d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8d83d59324c53d6a6562e9a3ee4e08256e25fccc.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/944b90dafb7e9ffc8e669f0d01a3c82f88fd2589.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b394e2d92b88599c017ea0623e45a4abfffa5fc5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b92841cff148c4e6c748f598758c90f7b2d9b849.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b97940e669e9e7d2166e0cf014fb434a2cc71960.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bc433934cf054e7f766fb87c6a4cc914738d3bc3.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d2e6066dbc49e55e044687a1f60c10a7b846c42d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e1fc954b89a8ba2ea21dfb6896a20ec78756c562.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e53da411650a0ed85d29dca846fb4c2df4877675.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f2b0257436eb7cf9c02ac31b36777bcb5d13bae6.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fd9564af4b64672a6127f904b315295e3309311a.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/abab/CHANGELOG.md" afterDir="false" />
@@ -9176,6 +9190,10 @@
       <change afterPath="$PROJECT_DIR$/node_modules/execa/license" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/execa/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/execa/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/exenv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/exenv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/exenv/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/exenv/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/index.js" afterDir="false" />
@@ -16355,6 +16373,25 @@
       <change afterPath="$PROJECT_DIR$/node_modules/react-error-overlay/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-error-overlay/lib/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-error-overlay/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/.branch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/README.md.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/UPGRADE_GUIDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/dist/react-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/dist/react-modal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/components/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/components/ModalPortal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/helpers/ariaAppHider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/helpers/classList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/helpers/focusManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/helpers/safeHTMLElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/helpers/scopeTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/helpers/tabbable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-modal/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-scripts/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-scripts/bin/react-scripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/react-scripts/config/env.js" afterDir="false" />
@@ -18720,6 +18757,13 @@
       <change afterPath="$PROJECT_DIR$/node_modules/walker/lib/walker.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/walker/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/walker/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/node_modules/.bin/loose-envify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/warning/warning.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/watch/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/watch/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/watch/package.json" afterDir="false" />
@@ -19679,47 +19723,15 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/locales/zh_TW.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/addoption.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/option.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/optionmodal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scrapbook/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indecision-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/template/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indecision-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/template/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indecision-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/template/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/App2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/components/option.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/components/options.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indecision-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/template/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indecision-app/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/template/src/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indecision-app/src/registerServiceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/template/src/registerServiceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/scrapbook/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/scrapbook/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrapbook/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/scrapbook/togglevisible.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrapbook/togglevisible.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/src/toogleVisible.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/toogleVisible.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indecision-app/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19737,7 +19749,7 @@
         <entry file="file://$PROJECT_DIR$/src/App2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
-              <caret line="106" column="47" lean-forward="true" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+              <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -19745,14 +19757,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="optionmodal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="optionmodal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/optionmodal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/action.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addoption.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/addoption.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -19806,12 +19845,13 @@
         <option value="$PROJECT_DIR$/indecision-app/src/App2.js" />
         <option value="$PROJECT_DIR$/src/components/option.js" />
         <option value="$PROJECT_DIR$/src/components/options.js" />
-        <option value="$PROJECT_DIR$/src/components/header.js" />
-        <option value="$PROJECT_DIR$/src/components/action.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/addoption.js" />
         <option value="$PROJECT_DIR$/src/App2.js" />
         <option value="$PROJECT_DIR$/src/components/optionmodal.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/header.js" />
+        <option value="$PROJECT_DIR$/src/components/action.js" />
       </list>
     </option>
   </component>
@@ -19905,7 +19945,7 @@
       <workItem from="1522998037186" duration="7125000" />
       <workItem from="1523261987769" duration="13193000" />
       <workItem from="1523306748608" duration="1560000" />
-      <workItem from="1523350103320" duration="6569000" />
+      <workItem from="1523350103320" duration="7611000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1522314001211</created>
@@ -19928,17 +19968,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523275574580</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="*">
+      <created>1523362972491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523362972491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46625000" />
+    <option name="totallyTimeSpent" value="47667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="101" y="24" width="881" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20090806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20090806" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
@@ -19967,19 +20014,11 @@
     <MESSAGE value="init" />
     <MESSAGE value="Passing props &amp; functions to components and getting values back" />
     <MESSAGE value="adding default props" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding default props" />
+    <MESSAGE value="using modal" />
+    <MESSAGE value="*" />
+    <option name="LAST_COMMIT_MESSAGE" value="*" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indecision-app/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -20274,20 +20313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-middleware/middleware.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -20304,13 +20329,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/addoption.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -20341,20 +20359,48 @@
     <entry file="file://$PROJECT_DIR$/src/App2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="106" column="47" lean-forward="true" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+          <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/optionmodal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/addoption.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
