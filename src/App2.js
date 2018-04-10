@@ -4,6 +4,7 @@ import Options from "./components/options";
 import Action from "./components/action";
 import AddOption from "./components/addoption";
 import OptionModal from "./components/optionmodal";
+import './styles/styles.css';
 
 class App2 extends Component {
 
