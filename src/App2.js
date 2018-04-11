@@ -97,14 +97,16 @@ class App2 extends Component {
                         hasOptions={this.state.options.length > 0}
                         handlePick={this.handlePick}
                     />
-                    <Options
-                        options={this.state.options}
-                        handleDeleteOptions={this.handleDeleteOptions}
-                        handleDeleteOptionSingular={this.handleDeleteOptionSingular}
-                    />
-                    <AddOption
-                        handleAddOption={this.handleAddOption}
-                    />
+                    <div className="widget">
+                        <Options
+                            options={this.state.options}
+                            handleDeleteOptions={this.handleDeleteOptions}
+                            handleDeleteOptionSingular={this.handleDeleteOptionSingular}
+                        />
+                        <AddOption
+                            handleAddOption={this.handleAddOption}
+                        />
+                    </div>
                     <OptionModal
                         selectedOption={this.state.selectedOption}
                         modalClose={this.modalClose}

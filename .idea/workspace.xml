@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0b8e2-1563-4aec-95e3-755845aaccf3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/base/_settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_add-option.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_option.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_widget.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/addoption.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addoption.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/option.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/option.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/optionmodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/optionmodal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/options.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_settings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,31 +32,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header.js">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="75">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_container.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/components/_container.scss">
+      <file leaf-file-name="_add-option.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/_add-option.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App2.js">
+      <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/base/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/_modal.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_option.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="optionmodal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/optionmodal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,22 +137,28 @@
         <option value="$PROJECT_DIR$/indecision-app/build/index.html" />
         <option value="$PROJECT_DIR$/indecision-app/src/App2.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/addoption.js" />
-        <option value="$PROJECT_DIR$/src/components/optionmodal.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/action.js" />
-        <option value="$PROJECT_DIR$/src/components/options.js" />
-        <option value="$PROJECT_DIR$/src/components/option.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/styles/_base.scss" />
         <option value="$PROJECT_DIR$/src/styles/styles.css" />
-        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
-        <option value="$PROJECT_DIR$/src/styles/base/_settings.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/_header.scss" />
-        <option value="$PROJECT_DIR$/src/styles/styles.scss" />
-        <option value="$PROJECT_DIR$/src/components/header.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_container.scss" />
+        <option value="$PROJECT_DIR$/src/components/action.js" />
+        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_button.scss" />
+        <option value="$PROJECT_DIR$/src/components/header.js" />
         <option value="$PROJECT_DIR$/src/App2.js" />
+        <option value="$PROJECT_DIR$/src/styles/base/_settings.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_widget.scss" />
+        <option value="$PROJECT_DIR$/src/components/options.js" />
+        <option value="$PROJECT_DIR$/src/components/option.js" />
+        <option value="$PROJECT_DIR$/src/components/addoption.js" />
+        <option value="$PROJECT_DIR$/src/styles/styles.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_add-option.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_new.scss" />
+        <option value="$PROJECT_DIR$/src/components/optionmodal.js" />
+        <option value="$PROJECT_DIR$/src/styles/components/_option.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_modal.scss" />
       </list>
     </option>
   </component>
@@ -133,7 +172,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="119" />
+    <option name="x" value="108" />
     <option name="y" value="24" />
     <option name="width" value="936" />
     <option name="height" value="1056" />
@@ -198,14 +237,15 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles/components" />
+      <recent name="$PROJECT_DIR$/indecision-app/src/components" />
+      <recent name="$PROJECT_DIR$/indecision-app/src" />
+      <recent name="$PROJECT_DIR$/indecision-app/src/scrapbook" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles/base" />
       <recent name="$PROJECT_DIR$/indecision-app/src/components" />
-      <recent name="$PROJECT_DIR$/indecision-app/src/scrapbook" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/indecision-app/src/components" />
-      <recent name="$PROJECT_DIR$/indecision-app/src" />
       <recent name="$PROJECT_DIR$/indecision-app/src/scrapbook" />
     </key>
   </component>
@@ -236,7 +276,8 @@
       <workItem from="1522998037186" duration="7125000" />
       <workItem from="1523261987769" duration="13193000" />
       <workItem from="1523306748608" duration="1560000" />
-      <workItem from="1523350103320" duration="13037000" />
+      <workItem from="1523350103320" duration="18852000" />
+      <workItem from="1523436053163" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1522314001211</created>
@@ -287,25 +328,31 @@
       <option name="project" value="LOCAL" />
       <updated>1523385606822</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- add normalize.css&#10;- add styles for header &amp; body">
+      <created>1523386853855</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523386853855</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53093000" />
+    <option name="totallyTimeSpent" value="61781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="24" width="936" height="1056" extended-state="4" />
+    <frame x="108" y="24" width="936" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22970085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22970085" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50056756" side_tool="true" weight="0.2542194" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50213677" side_tool="true" weight="0.2542194" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49943247" visible="true" weight="0.2542194" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49786323" visible="true" weight="0.2542194" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,6 +361,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,250 +379,43 @@
     <MESSAGE value="using small refactor" />
     <MESSAGE value="adding CSS preprocessor, SCSS to project&#10;yarn add node-sass-chokidar" />
     <MESSAGE value="- using SASS" />
-    <option name="LAST_COMMIT_MESSAGE" value="- using SASS" />
+    <MESSAGE value="- add normalize.css&#10;- add styles for header &amp; body" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add normalize.css&#10;- add styles for header &amp; body" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/App2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#128#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/togglevisible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/App2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#128#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/options.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/App2.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/header.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/package.json" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/component.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/App.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/toogleVisible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/option.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/togglevisible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97755">
-          <caret line="6517" column="60" selection-start-line="6517" selection-start-column="53" selection-end-line="6517" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/App2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#128#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/build/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/build/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/toogleVisible.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/component.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/option.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/togglevisible.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/options.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/scrapbook/Counter.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/components/header.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/yarn.lock" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/package.json" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/build/index.html" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/App2.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/registerServiceWorker.js" />
+    <entry file="file://$PROJECT_DIR$/indecision-app/src/index.js" />
     <entry file="file://$PROJECT_DIR$/src/scrapbook/togglevisible.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -583,21 +424,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-middleware/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,47 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/addoption.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/optionmodal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/option.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -670,34 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/base/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -705,13 +468,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        <state relative-caret-position="175">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_widget.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/addoption.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/base/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/optionmodal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_add-option.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
